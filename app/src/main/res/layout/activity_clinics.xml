@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:divider="@android:color/white"
-            android:dividerHeight="3dp"></ListView>
+            android:dividerHeight="3dp" />
 
         <TextView
             android:id="@+id/textview"
@@ -23,7 +23,7 @@
             android:layout_height="match_parent"
             android:padding="12dp"
             android:textColor="@android:color/white"
-            android:textSize="17sp"></TextView>
+            android:textSize="17sp" />
 
     </LinearLayout>
 
