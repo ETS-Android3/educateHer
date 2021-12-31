@@ -57,12 +57,6 @@ public class ClinicView extends AppCompatActivity implements View.OnClickListene
             mWebButton.setVisibility(View.GONE);
             webview.setVisibility(View.VISIBLE);
         }
-
-//        if (!webIsLoaded) {
-//            webview.setWebViewClient(new MyWebViewClient());
-//            webview.getSettings().setJavaScriptEnabled(true);
-//            webview.loadUrl(selected.getURL());
-//            webIsLoaded = true;
-//        }
     }
+}
 
