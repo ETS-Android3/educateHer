@@ -18,10 +18,6 @@ public class ClinicView extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.clinic_info);
-
-//        webview = findViewById(R.id.myWebView);
-//        webview.setVisibility(View.GONE);
-
         Clinic selected = (Clinic) getIntent().getSerializableExtra("SelectedClinic");
 
         TextView mT1 = findViewById(R.id.clinic_name);
